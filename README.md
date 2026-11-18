@@ -17,7 +17,7 @@ Aplikasi dasar e-Rapor berdasarkan diagram alur yang diberikan: Admin, Guru, dan
    copy .env.example .env
    ```
    Di Linux gunakan `cp .env.example .env`.
-3. Buat database MySQL bernama `erapor`, lalu atur DB_DATABASE, DB_USERNAME, DB_PASSWORD di `.env`.
+3. Buat database MySQL bernama `rapor`, lalu atur DB_DATABASE, DB_USERNAME, DB_PASSWORD di `.env`.
 4. Jalankan:
    ```bash
    php artisan key:generate
@@ -30,18 +30,24 @@ Aplikasi dasar e-Rapor berdasarkan diagram alur yang diberikan: Admin, Guru, dan
    php artisan serve
    ```
    Buka http://127.0.0.1:8000
+## akun demo
+yayasan
+    username : yayasan
+    password : yayasan123
+kepala sekolah sd
+    username : kepalasd
+    password : kepalasd
+kepala sekolah smp
+    username : kepalasmp
+    password : kepalasmp
+kepala sekolah sma
+    username : kepalasma
+    password : kepalasma
+untuk user guru dan siswa ditambah sendiri
 
-## Bootstrap offline
-Bootstrap dimasukkan sebagai dependensi lokal npm dan diimpor melalui Vite (`resources/css/app.css` dan `resources/js/app.js`), bukan CDN. Setelah `npm run build`, file CSS/JS hasil build disimpan di `public/build`. Server produksi dapat berjalan tanpa koneksi internet. Jalankan proses build saat menyiapkan atau memperbarui aset.
-
-## Akun demo
-| Role | Username | Password |
-|---|---|---|
-| Admin | admin | password |
-| Guru | guru | password |
-| Siswa | siswa | password |
-
-Segera ganti password akun demo sebelum digunakan sungguhan.
+## Uji coba Langsung tanpa unduh file
+https://lawrence-advertise-not-advocacy.trycloudflare.com/login
+dikarenakan ini domain gratis maka ketika minta seed anyway di klik saja jangan go back
 
 ## Alur status nilai
 - `draft`: guru menyimpan nilai.
