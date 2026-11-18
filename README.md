@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # e-Rapor Sekolah — Laravel 13
 
 Aplikasi dasar e-Rapor berdasarkan diagram alur yang diberikan: Admin, Guru, dan Siswa; input nilai; validasi; revisi; persetujuan; publikasi; serta tampilan/cetak rapor.
@@ -55,3 +56,7 @@ Sebelum produksi, tambahkan: CRUD edit lengkap untuk seluruh data master, impor 
 
 ## Versi framework
 Dependensi Composer menggunakan `laravel/framework: ^13.0` dan `php: ^8.3`, sesuai persyaratan resmi Laravel 13. Composer akan memasang rilis patch Laravel 13 terbaru yang kompatibel saat `composer install` dijalankan.
+=======
+# E-Raport-Laravel13
+MATA KULIAH BASIS DATA TERAPAN SEMESTER 5
+>>>>>>> f72eb5136a1a54d7a46d19049fb19eaa95600e08
