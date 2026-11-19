@@ -31,23 +31,18 @@ Aplikasi dasar e-Rapor berdasarkan diagram alur yang diberikan: Admin, Guru, dan
    ```
    Buka http://127.0.0.1:8000
 ## akun demo
-yayasan
-    username : yayasan
-    password : yayasan123
-kepala sekolah sd
-    username : kepalasd
-    password : kepalasd
-kepala sekolah smp
-    username : kepalasmp
-    password : kepalasmp
-kepala sekolah sma
-    username : kepalasma
-    password : kepalasma
-untuk user guru dan siswa ditambah sendiri
+Data Akun Login
+No.|	Jabatan            |	Username               |    Password
+1  |	Yayasan            |	yayasan	               |    yayasan123
+2  |	Kepala Sekolah SD  |	kepalasd               |    kepalasd
+3  |	Kepala Sekolah SMP |	kepalasmp              |    kepalasmp
+4  |	Kepala Sekolah SMA |	kepalasma              |	kepalasma
+5  |	Guru               |	Ditambahkan sendiri    |    Ditambahkan sendiri
+6  |	Siswa              |	Ditambahkan sendiri    |	Ditambahkan sendiri
 
 ## Uji coba Langsung tanpa unduh file
-https://lawrence-advertise-not-advocacy.trycloudflare.com/login
-dikarenakan ini domain gratis maka ketika minta seed anyway di klik saja jangan go back
+https://rapor.dpdns.org/login
+
 
 ## Alur status nilai
 - `draft`: guru menyimpan nilai.
